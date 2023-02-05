@@ -1,0 +1,130 @@
+.nav-image-style {
+  width: 45%;
+}
+.nav-style {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.icon-style {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.sun-icon-style {
+  font-size: 25px;
+  margin-right: 10px;
+  color: white;
+}
+
+.li-container {
+  list-style-type: none;
+}
+.list-icons-container {
+  display: flex;
+  justify-content: space-between;
+}
+.trigger-button {
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+}
+.logout-btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.close-btn {
+  background-color: white;
+  color: red;
+  border-radius: 4px;
+  padding: 10px;
+  border: 1px solid red;
+}
+.confirm-btn-style {
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 4px;
+  padding: 10px;
+  border: none;
+}
+.confirm-container {
+  border-radius: 8px;
+  padding: 20px;
+  color: black;
+  font-weight: bold;
+}
+.nav-style-lg {
+  display: none;
+}
+
+.ham-option-container {
+  padding: 10px;
+}
+.li-container-ham {
+  display: flex;
+  align-items: center;
+}
+.home-style {
+  margin-right: 10px;
+}
+
+.toDark {
+  background-color: #181818;
+}
+.toLight {
+  background-color: white;
+}
+.dark {
+  color: white;
+}
+.light {
+  color: black;
+}
+.link-style {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-style-lg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  .small-nav {
+    display: none;
+  }
+  .nav-image-style {
+    width: 40%;
+  }
+  .logout-btn-style {
+    background-color: #3b83f600;
+    color: #3b82f6;
+    border: 1px solid #3b82f6;
+
+    padding: 5px;
+  }
+
+  .logout-btn-style {
+    cursor: pointer;
+  }
+
+  .list-icons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .profile-img-style {
+    width: 50%;
+  }
+  .li-container-img {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    width: 50px;
+    margin-right: 5px;
+  }
+}

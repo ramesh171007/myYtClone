@@ -1,0 +1,37 @@
+.gameVideo-container {
+  width: 42%;
+  margin: 10px;
+  text-decoration: none;
+}
+.game-video-item {
+  width: 100%;
+}
+.game-card-text h1 {
+  font-size: 21px;
+}
+.game-card-text p {
+  margin-top: -8px;
+}
+.game-heading-dark {
+  color: white;
+}
+.game-heading-light {
+  color: #1e293b;
+}
+
+@media screen and (min-width: 768px) {
+  .gameVideo-container {
+    width: 30%;
+    margin: 10px;
+    text-decoration: none;
+  }
+  .game-card-text h1 {
+    font-size: 25px;
+  }
+  .game-card-text p {
+    margin-top: -10px;
+  }
+  .worldwide-style {
+    display: none;
+  }
+}

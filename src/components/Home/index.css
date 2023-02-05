@@ -1,0 +1,151 @@
+.home-container {
+  height: 100vh;
+}
+.HomeDark {
+  background-color: black;
+}
+.HomeLight {
+  background-color: white;
+}
+
+.side-container {
+  display: none;
+}
+.home-card {
+  display: flex;
+}
+.card-home-container {
+  display: flex;
+}
+.heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ad-logo-style {
+  width: 30%;
+}
+.ad-image {
+  width: 50%;
+}
+.des-container {
+  display: flex;
+  align-items: center;
+}
+.ad-contaniner {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+  background-size: cover;
+  height: 130px;
+  width: 100%;
+  padding: 10px;
+}
+.video-home-card-container {
+  width: 100%;
+  padding: 10px;
+}
+
+.ad-text-content {
+  margin-top: 10px;
+}
+
+.ad-text-content h1 {
+  width: 50%;
+  font-size: 14px;
+  color: #475569;
+}
+.get-btn {
+  background-color: #47556900;
+  border: 1px solid #383838;
+  color: #383838;
+  padding: 5px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.search-container {
+  display: flex;
+  border: 1px solid #383838;
+  border-right: none;
+  margin: 10px;
+}
+.input-search-style {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  border: none;
+}
+.search-icon-btn {
+  border-top: none;
+  border-bottom: none;
+  border-left: 1px solid #383838;
+  border-right: 1px solid #383838;
+  width: 50px;
+  font-size: 20px;
+}
+.home-dark {
+  background-color: #000000;
+}
+.home-light {
+  background-color: #f1f1f1;
+}
+
+@media screen and (min-width: 768px) {
+  .side-container {
+    display: block;
+    width: 20%;
+  }
+  .home-card {
+    display: flex;
+  }
+  .card-home-container {
+    display: flex;
+  }
+  .video-home-card-container {
+    width: 100%;
+    align-self: flex-start;
+  }
+  .ad-logo-style {
+    width: 15%;
+  }
+  .ad-close-btn {
+    font-size: 20px;
+  }
+  .ad-contaniner {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    padding: 10px;
+  }
+  .ad-text-content h1 {
+    width: 30%;
+    font-size: 28px;
+    color: #475569;
+  }
+  .ad-text-content {
+    margin-top: 50px;
+  }
+  .get-btn {
+    background-color: #47556900;
+    border: 1px solid #383838;
+    color: #383838;
+    padding: 10px;
+
+    margin-top: 5px;
+  }
+  .get-btn:hover {
+    cursor: pointer;
+  }
+
+  .small {
+    height: 255px;
+    overflow-y: scroll;
+  }
+  .large {
+    height: 77.8vh;
+    overflow-y: scroll;
+  }
+  .video-ul-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

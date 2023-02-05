@@ -1,0 +1,97 @@
+.game-heading {
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+.game-heading-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d7dfe9;
+  color: #ff0000;
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.game-heading h1 {
+  font-size: 23px;
+}
+
+.display-game-video {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.game-dark {
+  background-color: #000000;
+  color: white;
+}
+.game-light {
+  background-color: #f4f4f4;
+  color: #475569;
+}
+.game-head-dark {
+  background-color: #000000;
+  color: white;
+}
+.game-head-light {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+@media screen and (min-width: 768px) {
+  .gaming-side-bar {
+    width: 20%;
+  }
+  .game-card {
+    display: flex;
+  }
+  .game-heading {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  .game-video-container {
+    width: 100%;
+  }
+  .game-heading-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d7dfe9;
+    color: #ff0000;
+    font-size: 25px;
+    margin-right: 20px;
+  }
+  .game-heading h1 {
+    font-size: 25px;
+  }
+  .display-game-video {
+    height: 76.4vh;
+    overflow-y: auto;
+  }
+  .display-game-video {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+  }
+  .game-head-dark {
+    background-color: #000000;
+    color: white;
+  }
+  .game-head-light {
+    background-color: #f1f1f1;
+    color: black;
+  }
+}

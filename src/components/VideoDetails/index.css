@@ -1,0 +1,157 @@
+.video-item-display-container {
+  display: none;
+}
+.video-item-container-display-sm {
+  width: 100%;
+}
+.video-item-display-sm h1 {
+  font-size: 20px;
+  padding: 5px;
+}
+.video-detail-text-sm {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.video-detail-text-sm p {
+  margin-right: 10px;
+}
+.like-btn-sm {
+  background-color: rgba(240, 248, 255, 0);
+  display: flex;
+  align-items: center;
+  border: none;
+  font-size: 16px;
+  margin-right: 5px;
+}
+.like-icons-style-sm {
+  font-size: 18px;
+}
+.like-dislike-sm-container {
+  display: flex;
+}
+
+.profile-img-sm {
+  width: 15%;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.video-item-sm-detail {
+  display: flex;
+  align-items: flex-start;
+  padding: 5px;
+}
+
+.heading-txt-sm h1 {
+  font-size: 21px;
+}
+.sm-desc {
+  padding: 5px;
+}
+
+.like-act {
+  color: #00306e;
+}
+.dis-act {
+  color: #00306e;
+}
+
+.video-detail-dark {
+  background-color: #000000;
+  color: white;
+}
+.video-detail-light {
+  background-color: white;
+  color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .video-item-card-side-container {
+    width: 20%;
+  }
+  .video-item-container-card {
+    display: flex;
+  }
+  .video-item-display-container {
+    width: 100%;
+    display: block;
+  }
+  .react-player-style {
+    width: 70%;
+  }
+  .video-item-display-container {
+    height: 88.5vh;
+    overflow-y: auto;
+  }
+  .view-container {
+    display: flex;
+  }
+  .view-container p {
+    margin-right: 10px;
+  }
+  .like-btn {
+    background-color: rgba(240, 248, 255, 0);
+    display: flex;
+    align-items: center;
+    border: none;
+    font-size: 17px;
+    margin-right: 5px;
+  }
+  .like-dis-small-container {
+    display: flex;
+  }
+  .like-dislike-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .like-icons-style {
+    font-size: 20px;
+  }
+  .like-btn:hover {
+    cursor: pointer;
+  }
+  hr {
+    width: 100%;
+  }
+  .channel-logo-img-style {
+    width: 5%;
+    align-self: flex-start;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+  .each-channel-details {
+    display: flex;
+    align-items: flex-start;
+  }
+  .video-detail-channel-name-sub h1 {
+    font-size: 23px;
+  }
+  .video-detail-text-container h1 {
+    font-size: 25px;
+  }
+  .video-item-container-display-sm {
+    display: none;
+  }
+  .like-act {
+    color: #00306e;
+  }
+  .dis-act {
+    color: #00306e;
+  }
+  .video-detail-dark {
+    background-color: #000000;
+    color: white;
+  }
+  .video-detail-light {
+    background-color: white;
+    color: #000000;
+  }
+  .btn-dark {
+    color: white;
+  }
+  .btn-light {
+    color: black;
+  }
+}
